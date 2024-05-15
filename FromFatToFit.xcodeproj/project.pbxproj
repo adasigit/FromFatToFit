@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01897A162C0390E00072D50E /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01897A152C0390E00072D50E /* MenuScene.swift */; };
+		01897A182C0390F00072D50E /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01897A172C0390F00072D50E /* Button.swift */; };
+		01897A1E2C03A42E0072D50E /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01897A1D2C03A42E0072D50E /* TransferService.swift */; };
+		01897A202C03A45D0072D50E /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01897A1F2C03A45D0072D50E /* BluetoothManager.swift */; };
+		01EB07C62BF4D1B700857BDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB07C52BF4D1B700857BDB /* AppDelegate.swift */; };
+		01EB07C82BF4D1B700857BDB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01EB07C72BF4D1B700857BDB /* GameScene.sks */; };
+		01EB07CA2BF4D1B700857BDB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01EB07C92BF4D1B700857BDB /* Actions.sks */; };
+		01EB07CC2BF4D1B700857BDB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB07CB2BF4D1B700857BDB /* GameScene.swift */; };
+		01EB07CE2BF4D1B700857BDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB07CD2BF4D1B700857BDB /* ViewController.swift */; };
+		01EB07D02BF4D1BB00857BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EB07CF2BF4D1BB00857BDB /* Assets.xcassets */; };
+		01EB07D32BF4D1BB00857BDB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 01EB07D22BF4D1BB00857BDB /* Base */; };
+		01EB07DE2BF4E05E00857BDB /* countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01EB07DD2BF4E05E00857BDB /* countdown.mp3 */; };
+		01EB07E12BF4E39000857BDB /* next-round.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01EB07DF2BF4E39000857BDB /* next-round.mp3 */; };
+		01EB07E22BF4E39000857BDB /* lets-dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01EB07E02BF4E39000857BDB /* lets-dance.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01897A152C0390E00072D50E /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		01897A172C0390F00072D50E /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		01897A1D2C03A42E0072D50E /* TransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
+		01897A1F2C03A45D0072D50E /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		01EB07C22BF4D1B700857BDB /* FromFatToFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FromFatToFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EB07C52BF4D1B700857BDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01EB07C72BF4D1B700857BDB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		01EB07C92BF4D1B700857BDB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		01EB07CB2BF4D1B700857BDB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		01EB07CD2BF4D1B700857BDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01EB07CF2BF4D1BB00857BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01EB07D22BF4D1BB00857BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01EB07D42BF4D1BB00857BDB /* FromFatToFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FromFatToFit.entitlements; sourceTree = "<group>"; };
+		01EB07DD2BF4E05E00857BDB /* countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countdown.mp3; sourceTree = "<group>"; };
+		01EB07DF2BF4E39000857BDB /* next-round.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "next-round.mp3"; sourceTree = "<group>"; };
+		01EB07E02BF4E39000857BDB /* lets-dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lets-dance.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01EB07BF2BF4D1B700857BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EB07B92BF4D1B700857BDB = {
+			isa = PBXGroup;
+			children = (
+				01EB07C42BF4D1B700857BDB /* FromFatToFit */,
+				01EB07C32BF4D1B700857BDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01EB07C32BF4D1B700857BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01EB07C22BF4D1B700857BDB /* FromFatToFit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01EB07C42BF4D1B700857BDB /* FromFatToFit */ = {
+			isa = PBXGroup;
+			children = (
+				01EB07DA2BF4E01C00857BDB /* sfx */,
+				01EB07C52BF4D1B700857BDB /* AppDelegate.swift */,
+				01EB07C72BF4D1B700857BDB /* GameScene.sks */,
+				01EB07C92BF4D1B700857BDB /* Actions.sks */,
+				01EB07CB2BF4D1B700857BDB /* GameScene.swift */,
+				01EB07CD2BF4D1B700857BDB /* ViewController.swift */,
+				01EB07CF2BF4D1BB00857BDB /* Assets.xcassets */,
+				01EB07D12BF4D1BB00857BDB /* Main.storyboard */,
+				01EB07D42BF4D1BB00857BDB /* FromFatToFit.entitlements */,
+				01897A152C0390E00072D50E /* MenuScene.swift */,
+				01897A172C0390F00072D50E /* Button.swift */,
+				01897A1D2C03A42E0072D50E /* TransferService.swift */,
+				01897A1F2C03A45D0072D50E /* BluetoothManager.swift */,
+			);
+			path = FromFatToFit;
+			sourceTree = "<group>";
+		};
+		01EB07DA2BF4E01C00857BDB /* sfx */ = {
+			isa = PBXGroup;
+			children = (
+				01EB07E02BF4E39000857BDB /* lets-dance.mp3 */,
+				01EB07DF2BF4E39000857BDB /* next-round.mp3 */,
+				01EB07DD2BF4E05E00857BDB /* countdown.mp3 */,
+			);
+			path = sfx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01EB07C12BF4D1B700857BDB /* FromFatToFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01EB07D72BF4D1BB00857BDB /* Build configuration list for PBXNativeTarget "FromFatToFit" */;
+			buildPhases = (
+				01EB07BE2BF4D1B700857BDB /* Sources */,
+				01EB07BF2BF4D1B700857BDB /* Frameworks */,
+				01EB07C02BF4D1B700857BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FromFatToFit;
+			productName = FromFatToFit;
+			productReference = 01EB07C22BF4D1B700857BDB /* FromFatToFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01EB07BA2BF4D1B700857BDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					01EB07C12BF4D1B700857BDB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 01EB07BD2BF4D1B700857BDB /* Build configuration list for PBXProject "FromFatToFit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01EB07B92BF4D1B700857BDB;
+			productRefGroup = 01EB07C32BF4D1B700857BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01EB07C12BF4D1B700857BDB /* FromFatToFit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01EB07C02BF4D1B700857BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EB07C82BF4D1B700857BDB /* GameScene.sks in Resources */,
+				01EB07D02BF4D1BB00857BDB /* Assets.xcassets in Resources */,
+				01EB07E22BF4E39000857BDB /* lets-dance.mp3 in Resources */,
+				01EB07DE2BF4E05E00857BDB /* countdown.mp3 in Resources */,
+				01EB07E12BF4E39000857BDB /* next-round.mp3 in Resources */,
+				01EB07CA2BF4D1B700857BDB /* Actions.sks in Resources */,
+				01EB07D32BF4D1BB00857BDB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01EB07BE2BF4D1B700857BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01897A1E2C03A42E0072D50E /* TransferService.swift in Sources */,
+				01897A182C0390F00072D50E /* Button.swift in Sources */,
+				01EB07CE2BF4D1B700857BDB /* ViewController.swift in Sources */,
+				01897A202C03A45D0072D50E /* BluetoothManager.swift in Sources */,
+				01897A162C0390E00072D50E /* MenuScene.swift in Sources */,
+				01EB07CC2BF4D1B700857BDB /* GameScene.swift in Sources */,
+				01EB07C62BF4D1B700857BDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01EB07D12BF4D1BB00857BDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01EB07D22BF4D1BB00857BDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01EB07D52BF4D1BB00857BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01EB07D62BF4D1BB00857BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		01EB07D82BF4D1BB00857BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FromFatToFit/FromFatToFit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW36D2XW6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use bluetooth";
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera use";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigitkurniawanisme.FromFatToFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		01EB07D92BF4D1BB00857BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FromFatToFit/FromFatToFit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW36D2XW6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use bluetooth";
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera use";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigitkurniawanisme.FromFatToFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01EB07BD2BF4D1B700857BDB /* Build configuration list for PBXProject "FromFatToFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EB07D52BF4D1BB00857BDB /* Debug */,
+				01EB07D62BF4D1BB00857BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01EB07D72BF4D1BB00857BDB /* Build configuration list for PBXNativeTarget "FromFatToFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EB07D82BF4D1BB00857BDB /* Debug */,
+				01EB07D92BF4D1BB00857BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01EB07BA2BF4D1B700857BDB /* Project object */;
+}
